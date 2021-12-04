@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+.profile-name {
+  font-family: "Libre Baskerville";
+  font-size: 30px;
+  margin: 0
+}
+.profile-image {
+    float:left;
+    margin: 1rem;
+    width: 10%
+}
+.profile-info {
+    float:left;
+}
+.role {
+  font-family: "PT Sans";
+  font-size: 20px;
+    margin: 0
+}
+.location {
+  font-family: "PT Sans";
+  font-size: 15px;  
+  margin: 0.5rem 0rem 1rem 0rem
+}
+.section {
+   font-family: "Playfair+Display";
+   font-size: 28px;
+    clear:both
+}
+.detail {
+  font-family: "Inconsolata";
+  font-size: 14px;
+}
+.info {
+  font-family: "Heebo";
+  font-size: 16px; 
+  font-weight: bold;
+}
+.about {
+    width: 50%;
+    clear: left;
+    float: left;
+    padding-right: 2rem;
+    border-right: 1px solid grey;
+}
+.skills {
+    width: 20%;
+    float: left;
+    padding-left: 2rem
+}

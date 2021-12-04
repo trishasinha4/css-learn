@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Strat Hawk</title>
+        <link rel="stylesheet" href="Styles/styles.css">
+    </head>
+    <body>
+        <div class="nav">
+        <h1 class="logo">Strat Hawk</h1>
+        <a class="nav-item" href="index.html">Home </a>
+        <a class="nav-item" href="bookings.html">My Bookings </a>
+        <a class="nav-item" href="destinations.html">Destinations </a>
+        <a class="nav-item" href="login.html">Login </a>
+        <a class="nav-item" href="signup.html">Signup</a>
+        </div>
+        
+        <img class="banner-image" src="https://raw.githubusercontent.com/simplacademy/html-learn/d787493a2eec82c343fef0eaa582ae34a98691f1/strat-hawk/images/flight.jpeg" alt="Plane" width="25%" />
+        <div class="shading"></div>
+        <div class="banner-text">The World is yours.</div>
+        <div class="search-form-container">
+            <h2 class="heading">Search Flights</h2>
+        <form action="index.html">
+            <div class="search-elememnt-container">
+              <div class="form-group">
+                 <input class="form-element" type="text" placeholder="From" required>
+              </div>
+              <div class="form-group">
+                 <input class="form-element" type="text" placeholder="To" required>
+              </div>
+              <div class="form-group">
+                 <input type="text" name="travelDate" placeholder="Travel Date yyyy-mm-dd" class="form-element" pattern="^\d{4}\-(0?[1-9]|1[012])\-(0?[1-9]|[12][0-9]|3[01])$" title="yyy-mm-dd" required>
+              </div>
+              <div class="form-group">
+            <select name="class" class="form-element">
+                <option>Economy</option>
+                <option>Business</option>
+                <option>First</option>
+            </select>
+         </div>
+      </div>
+            <input type="submit" value="Search" class="btn">
+    </form>
+</div>
+        <div class="recommended-flights">
+        <h2 class="heading-recommended-flights">Recommended Flights</h2>
+        <!--
+        <table border="1" cellpadding="10" cellspacing="0">
+            <tr>
+                <th>Flight</th>
+                <th>Departure</th>
+                <th>Duration</th>
+                <th>Arrival</th>
+                <th>Cost</th>
+                <th>Book</th>
+            </tr>
+            <tr>
+                <td>SH288</td>
+                <td>
+                    <div>Berlin(BER)</div>
+                    <div>21:00</div>
+                    Wed 28 Oct 2020
+                </td>
+                <td>49 hrs 5 mins</td>
+                 <td>
+                    <div>Sydney(SYD)</div>
+                    <div>08:00</div>
+                    Sat 31 Oct 2020
+                 </td>
+                <td>$3447</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>SH245</td>
+                <td>
+                    <div>Sydney(SYD)</div>
+                    <div>22:25</div>
+                    Tues 10 Nov 2020
+                </td>
+                <td>22 hrs 55 mins</td>
+                 <td>
+                    <div>Berlin(BER)</div>
+                     <div>12:20</div>
+                    Wed 11 Nov 2020
+                 </td>
+                <td>$801</td>
+                <td></td>
+            </tr>
+        </table>
+-->
+        <div class="flights">
+            <div class="flight">
+                <div class="flight-number">SH288</div>
+                <div class="schedule">
+                    <div class="departure">
+                        <div class="from">Berlin (BER)</div>
+                        <div class="departTime">21:00</div>
+                        <div class="departDate">Wed 28 Oct 2020</div>
+                    </div>
+                    <div class="duration">49 hrs 5mins</div>
+                    <div class="arrival">
+                        <div class="to">Sydney (SYD)</div>
+                        <div class="arriveTime">08:05</div>
+                        <div class="arriveDate">Sat 31 Oct 2029</div>
+                    </div>
+                </div>
+                <div class="cost">$3,447</div>
+                <form action="bookings.html">
+                    <input type="submit" value="Book" class="btn">
+                </form>
+            </div>
+            <div class="flight">
+                <div class="flight-number">SH245</div>
+                <div class="schedule">
+                    <div class="departure">
+                        <div class="from">Sydney (SYD)</div>
+                        <div class="departTime">22:25</div>
+                        <div class="departTime">Tue 10 Nov 2020</div>
+                    </div>
+                    <div class="duration">23 hrs 55 mins</div>
+                    <div class="arrival">
+                        <div class="to">Berlin (BER)</div>
+                        <div class="arriveTime">12:20</div>
+                        <div class="arriveDate">Wed 11 Nov 2020</div>
+                    </div>
+                </div>
+                <div class="cost">$801</div>
+                <form action="bookings.html">
+                    <input type="submit" value="Book" class="btn">
+                </form>
+            </div>
+        </div>
+      </div>
+    </body>
+</html>

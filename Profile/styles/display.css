@@ -1,0 +1,14 @@
+.container {
+   border: 2px solid red;
+}
+.item {
+    border: 2px solid blue;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+}
+.item3 {
+    position: fixed;
+    bottom: 0rem;
+    right: 0rem;
+}
